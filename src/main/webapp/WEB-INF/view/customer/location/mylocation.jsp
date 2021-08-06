@@ -26,6 +26,8 @@
 	REST API 키		e971469793c7cf0998c2e2c4ced12178
 	JavaScript 키	1d2ebd247dcb85e9298ab360a72a49fc
 	Admin 키			b2bba9aaa29483a5aee9dc2f07b23666
+	
+	git Test
 -->
 
 <script>
@@ -38,6 +40,7 @@ $(document).ready(function(){
 	    center: new kakao.maps.LatLng(33.450701, 126.570667), // 지도의 중심좌표 (일단 카카오로)
 	    level: 5 // 지도의 확대 레벨 
 	};
+	
 
 	var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
 	
